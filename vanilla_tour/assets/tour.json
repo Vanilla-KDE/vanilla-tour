@@ -1,7 +1,7 @@
 [
     {
         "resource": "/org/vanillaos/Tour/assets/welcome.svg",
-        "title": "Vanilla OS 2 Orchid",
+        "title": "Vanilla OS 3 Reunion",
         "description": "Let's take a short tour."
     },
     {
@@ -53,7 +53,7 @@
     {
         "resource": "/org/vanillaos/Tour/assets/end.svg",
         "title": "There is More",
-        "description": "Find out more about all the Orchid news and features on our blog.",
+        "description": "Find out more about all the latest news and features on our blog.",
         "action": {
             "title": "Visit the Blog",
             "callback": "url://https://vanillaos.org/blog"
