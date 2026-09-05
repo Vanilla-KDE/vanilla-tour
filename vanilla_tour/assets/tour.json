@@ -19,7 +19,7 @@
         "description": "From your favorite music player, to your trusted web browser. They are all available, install them from the store.",
         "action": {
             "title": "Open the Store",
-            "callback": "cmd://gnome-software"
+            "callback": "cmd://plasma-discover"
         }
     },
     {
@@ -38,16 +38,16 @@
         "description": "From Bluetooth devices to that wallpaper you love so much. The settings panel allows you to configure it as you like.",
         "action": {
             "title": "Open the Settings",
-            "callback": "cmd://gnome-control-center"
+            "callback": "cmd://systemsettings"
         }
     },
     {
         "resource": "/org/vanillaos/Tour/assets/connect.svg",
         "title": "Connect Your Online Accounts",
-        "description": "Do you have a Gmail, Outlook, Nextcloud or other account? Connect them to your Vanilla OS device to integrate email, calendars.. everything.",
+        "description": "Do you have a Google, Nextcloud or other account? Connect them to your Vanilla OS device to integrate email, calendars.. everything.",
         "action": {
             "title": "Connect an Account",
-            "callback": "cmd://gnome-control-center online-accounts"
+            "callback": "cmd://systemsettings kcm_kaccounts"
         }
     },
     {
